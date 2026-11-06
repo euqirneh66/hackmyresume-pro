@@ -254,10 +254,18 @@ export default function ResumeBuilderPage() {
             </button>
             <button
               onClick={handlePrint}
-              className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition flex items-center gap-2 shadow-md shadow-emerald-600/20"
+              className="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100 font-bold text-xs transition flex items-center gap-1.5 shadow-sm"
             >
-              <Printer className="w-3.5 h-3.5" /> Baixar em PDF (A4)
+              <Printer className="w-3.5 h-3.5" /> PDF (A4)
             </button>
+            <a
+              href="https://rancharia.gumroad.com/l/tiksyk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-extrabold text-xs transition flex items-center gap-1.5 shadow-md shadow-emerald-600/30 ring-2 ring-emerald-500/30 animate-pulse hover:animate-none"
+            >
+              <span>⚡ Obter Código ($29)</span>
+            </a>
           </div>
         </div>
       </header>
